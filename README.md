@@ -23,6 +23,10 @@
 - JWT認証によるユーザー管理
 - ダークモード対応
 
+## リポジトリ
+- **フロントエンド**: https://github.com/yshimura1001/sleeptrace-fontend
+- **バックエンド**: https://github.com/yshimura1001/sleeptrace-backend
+
 ## 技術スタック
 
 ### フロントエンド
@@ -65,6 +69,12 @@
 ```
 
 ## ローカル開発
+| カテゴリ | 技術 |
+|---------|------|
+| メインOS | Windows 11 Pro |
+| サブOS | Ubuntu 24.04.03(WSL)|
+| エディタ | VS Code, Antigravity|
+| AIコーディングエージェント | Calude(Code), Gemini(AI Pro)|
 
 ### 前提条件
 - Node.js 24.13.0
