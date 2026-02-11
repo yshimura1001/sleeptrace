@@ -1,0 +1,24 @@
+erDiagram
+    users ||--o{ sleep_logs : "has"
+    users {
+        INTEGER id PK
+        TEXT username UK
+        TEXT password_hash
+        INTEGER is_public
+        TIMESTAMP created_at
+    }
+    sleep_logs {
+        INTEGER id PK
+        INTEGER user_id FK
+        TEXT sleep_date
+        INTEGER sleep_score
+        TEXT bed_time
+        TEXT wakeup_time
+        INTEGER sleep_duration
+        INTEGER wakeup_count
+        INTEGER deep_sleep_continuity
+        INTEGER deep_sleep_percentage
+        INTEGER light_sleep_percentage
+        INTEGER rem_sleep_percentage
+        TIMESTAMP created_at
+    }
