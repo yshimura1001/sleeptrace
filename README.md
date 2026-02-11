@@ -65,7 +65,7 @@
 ![システム構成図](docs/architecture.svg)
 
 ## ER図
-<img src="docs/er-diagram.svg" alt="ER図" width="390" height="307">
+<img src="docs/er-diagram.svg" alt="ER図" width="780" height="614">
 
 ## 工夫点
 1. Claude CodeやGeminiといったAIコーディングエージェントを利用して開発するスタイルを採用しつつ、自然言語での指示を少なくするため、様々な指示方法を試した点。
